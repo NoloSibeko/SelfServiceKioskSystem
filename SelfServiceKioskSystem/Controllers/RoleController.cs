@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SelfServiceKioskSystem.Controllers
+/*namespace SelfServiceKioskSystem.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -55,26 +55,26 @@ namespace SelfServiceKioskSystem.Controllers
             if (user == null)
                 return NotFound("User not found.");
 
-            var existing = await _context.Roles
-                .AnyAsync(r => r.UserID == roleDto.UserID && r.UserRole == roleDto.UserRole);
+         /*   var existing = await _context.Roles
+                .AnyAsync(r => r.UserID == roleDto.UserID && r.UserRole == roleDto.UserRole);*/
 
-            if (existing)
+   /*         if (existing)
                 return BadRequest("This user already has this role assigned.");
 
-            var role = new Role
+           /* var role = new Role
             {
                 UserID = roleDto.UserID,
                 UserRole = roleDto.UserRole
-            };
+            };*/
 
-            _context.Roles.Add(role);
+         /*   _context.Roles.Add(role);
             await _context.SaveChangesAsync();
 
             return Ok("Role assigned successfully.");
         }
 
 
-        [HttpDelete("{id}")]
+ /*       [HttpDelete("{id}")]
         [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> DeleteRole(int id)
         {
@@ -87,4 +87,4 @@ namespace SelfServiceKioskSystem.Controllers
             return NoContent();
         }
     }
-}
+}*/

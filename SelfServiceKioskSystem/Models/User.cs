@@ -9,8 +9,6 @@ namespace SelfServiceKioskSystem.Models
         [Key]
         public int UserID { get; set; }
 
-        public string UserRole { get; set; } = "User"; // Default role
-
         [Required]
         public string Name { get; set; }
 
@@ -18,25 +16,23 @@ namespace SelfServiceKioskSystem.Models
         public string Surname { get; set; }
 
         [Required]
+        public string Email { get; set; }
+
+        public string ContactNumber { get; set; }
+
         public string Password { get; set; }
 
         public string AccountStatus { get; set; } = "Active";
 
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; }
+        public int RoleID { get; set; } = 1; // default to User
 
-        [Required]
-        public string ContactNumber { get; set; }
-
-        public Wallet Wallet { get; set; }
-
+        [ForeignKey("RoleID")]
         public Role Role { get; set; }
 
-        public Cart Carts { get; set; }
-
-        public ICollection<TransactionDetail> Transaction { get; set; }
-
-        public ICollection<Product> Products { get; set; }
+        // Navigation properties
+        public Wallet Wallet { get; set; }
+        public Cart Cart { get; set; }
+        public List<TransactionDetail> Transactions { get; set; }
     }
+
 }

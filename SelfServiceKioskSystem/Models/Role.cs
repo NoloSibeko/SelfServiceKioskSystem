@@ -8,17 +8,10 @@ namespace SelfServiceKioskSystem.Models
     {
         [Key]
         public int RoleID { get; set; }
+        public string RoleName { get; set; }
 
-        [Required]
-        [ForeignKey("User")]
-        public int UserID { get; set; }
-
-        [Required]
-        public string UserRole { get; set; }
-
-        public User User { get; set; }
-
-        //[Required]
-        //public AdminRole AdminRole { get; set; }
+        // Navigation property
+        public ICollection<User> Users { get; set; }
     }
+
 }

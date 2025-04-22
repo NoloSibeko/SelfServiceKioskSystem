@@ -13,9 +13,6 @@ namespace SelfServiceKioskSystem.Models
         [ForeignKey("Category")]
         public int CategoryID { get; set; }
 
-       // [ForeignKey("User")]
-       // public int UserID { get; set; }
-
         public decimal Price { get; set; }
 
         public string Name { get; set; }
@@ -23,8 +20,6 @@ namespace SelfServiceKioskSystem.Models
         public int Quantity { get; set; }
 
         public string Description { get; set; }
-
-       // public string ImageURL { get; set; }
 
         public string ImageURL { get; set; }
 

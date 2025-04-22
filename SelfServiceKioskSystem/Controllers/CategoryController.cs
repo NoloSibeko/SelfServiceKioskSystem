@@ -28,7 +28,7 @@ namespace SelfServiceKioskSystem.Controllers
             var category = new Category
             {
                 CategoryName = dto.Name,
-                Description = dto.Description
+               
             };
 
             _context.Categories.Add(category);
@@ -80,7 +80,7 @@ namespace SelfServiceKioskSystem.Controllers
                 return NotFound();
 
             category.CategoryName = dto.Name;
-            category.Description = dto.Description;
+           
 
             await _context.SaveChangesAsync();
 

@@ -17,60 +17,53 @@ namespace SelfServiceKioskSystem.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // User-Wallet
+            base.OnModelCreating(modelBuilder);
+
+            // Relationships
+
+            // User-Wallet (1:1)
             modelBuilder.Entity<User>()
                 .HasOne(u => u.Wallet)
                 .WithOne(w => w.User)
                 .HasForeignKey<Wallet>(w => w.UserID);
 
-            // User-Admin
-            modelBuilder.Entity<User>()
-                .HasOne(u => u.Role)
-                .WithOne(a => a.User)
-                .HasForeignKey<Role>(a => a.UserID);
-
-            // User-Cart
-            modelBuilder.Entity<User>()
+            // User-Cart (1:1)
+           /* modelBuilder.Entity<User>()
                 .HasOne(u => u.Carts)
                 .WithOne(c => c.User)
-                .HasForeignKey<Cart>(c => c.UserID);
+                .HasForeignKey<Cart>(c => c.UserID);*/
 
-            // User-Transactions
+           /* // User-Transactions (1:N)
             modelBuilder.Entity<User>()
                 .HasMany(u => u.Transaction)
                 .WithOne(t => t.User)
-                .HasForeignKey(t => t.UserID);
+                .HasForeignKey(t => t.UserID);*/
 
-            // Wallet-Transactions
+            // Wallet-Transactions (1:N)
             modelBuilder.Entity<Wallet>()
                 .HasMany(w => w.TransactionDetails)
                 .WithOne(t => t.Wallet)
                 .HasForeignKey(t => t.WalletID);
 
-            // User-Products
-           /* modelBuilder.Entity<User>()
-                .HasMany(u => u.Products)
-                .WithOne(p => p.User)
-                .HasForeignKey(p => p.UserID);*/
-
-            // Category-Products
+            // Category-Product (1:N)
             modelBuilder.Entity<Category>()
                 .HasMany(c => c.Products)
                 .WithOne(p => p.Category)
                 .HasForeignKey(p => p.CategoryID);
 
-            // Cart-Products many-to-many
+            // Cart-Products (M:N)
             modelBuilder.Entity<Cart>()
                 .HasMany(c => c.Products)
                 .WithMany(p => p.Carts)
                 .UsingEntity(j => j.ToTable("CartProducts"));
 
-            // Cart-Transaction
+            // Cart-Transaction (1:1)
             modelBuilder.Entity<Cart>()
                 .HasOne(c => c.Transaction)
                 .WithOne(t => t.Cart)
                 .HasForeignKey<TransactionDetail>(t => t.CartID);
 
+            // Precision settings
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
                 .HasPrecision(18, 2);
@@ -87,14 +80,20 @@ namespace SelfServiceKioskSystem.Data
                 .Property(w => w.Balance)
                 .HasPrecision(18, 2);
 
+            // Seed Roles
             modelBuilder.Entity<Role>().HasData(
-                new Role { RoleID = 1, UserRole = "User" },
-                new Role { RoleID = 2, UserRole = "Superuser" }
-);
+                new Role { RoleID = 1, RoleName = "User" },
+                new Role { RoleID = 2, RoleName = "Superuser" }
+            );
 
-            base.OnModelCreating(modelBuilder);
+            // Seed Categories
+            modelBuilder.Entity<Category>().HasData(
+                new Category { CategoryID = 1, CategoryName = "Hot Beverages" },
+                new Category { CategoryID = 2, CategoryName = "Cold Drinks" },
+                new Category { CategoryID = 3, CategoryName = "Snacks" },
+                new Category { CategoryID = 4, CategoryName = "Hot Meals" },
+                new Category { CategoryID = 5, CategoryName = "Desserts" }
+            );
         }
-
-
     }
 }

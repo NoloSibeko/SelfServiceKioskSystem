@@ -7,13 +7,13 @@ namespace SelfServiceKioskSystem.Models
 {
     public class Category
     {
-        [Key]
         public int CategoryID { get; set; }
 
+        [Required]
+        [MaxLength(50)]
         public string CategoryName { get; set; }
 
-        public string Description { get; set; }
-
+        // Navigation property
         public ICollection<Product> Products { get; set; }
     }
 }
