@@ -2,6 +2,7 @@
 {
     public class ProductDTO
     {
+        public int ProductID { get; set; }
         public string Name { get; set; }
         public string ImageURL { get; set; } 
         public string CategoryName { get; set; }

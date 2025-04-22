@@ -105,13 +105,34 @@ namespace SelfServiceKioskSystem.Controllers
             if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.Password))
                 return Unauthorized("Invalid credentials");
 
-            user.UserRole = user.Role.UserRole;
+            // Set UserRole from Role table if available
+            user.UserRole = user.Role?.UserRole ?? "User";
 
-            var token = GenerateJwtToken(user);
+            // Generate JWT token with role included
+            var claims = new List<Claim>
+    {
+        new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+        new Claim("UserID", user.UserID.ToString()),
+        new Claim(ClaimTypes.Role, user.UserRole), // Role-based authorization
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+    };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(2),
+                signingCredentials: creds
+            );
+
+            var jwtToken = new JwtSecurityTokenHandler().WriteToken(token);
 
             return Ok(new
             {
-                token,
+                token = jwtToken,
                 user.UserID,
                 user.Email,
                 user.Name,
@@ -121,6 +142,8 @@ namespace SelfServiceKioskSystem.Controllers
                 WalletBalance = user.Wallet?.Balance ?? 0
             });
         }
+
+
 
         // PUT: api/User/{id}
         [Authorize(Roles = "Superuser")]

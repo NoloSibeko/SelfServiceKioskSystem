@@ -3,11 +3,23 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using SelfServiceKioskSystem.Data;
+using SelfServiceKioskSystem.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("ReactApp", builder =>
+    {
+        builder.WithOrigins("http://localhost:3000") // React dev server
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .AllowCredentials(); // Add this if using cookies/auth
+    });
+});
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new() { Title = "Your API", Version = "v1" });
@@ -67,13 +79,64 @@ builder.Services.AddAuthentication(options =>
 });
 
 
+
+
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+    // Check if superuser exists
+    if (!context.Users.Any(u => u.Email == "bsibeko@singular.co.za"))
+    {
+        var wallet = new Wallet { Balance = 0 };
+
+        var superuser = new User
+        {
+            Name = "Bonolo",
+            Surname = "Sibeko",
+            Email = "bsibeko@singular.co.za",
+            ContactNumber = "0620912838",
+            AccountStatus = "Active",
+            Password = BCrypt.Net.BCrypt.HashPassword("BonoloSibeko123#"), 
+            Wallet = wallet,
+            UserRole = "Superuser"
+        };
+
+        /*if (user != null && user.Role != null)
+        {
+            user.Role.UserRole = "Superuser";
+            user.UserRole = "Superuser"; // sync it up
+            context.SaveChanges();
+        }*/
+
+
+        context.Users.Add(superuser);
+        context.SaveChanges();
+
+        var role = new Role
+        {
+            UserID = superuser.UserID,
+            UserRole = "Superuser",
+            //RoleID = 2 
+        };
+
+        context.Roles.Add(role);
+        context.SaveChanges();
+    }
+}
+
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+
+app.UseCors("ReactApp");
 
 app.UseHttpsRedirection();
 app.UseAuthentication();

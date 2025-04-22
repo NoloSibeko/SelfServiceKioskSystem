@@ -1,10 +1,11 @@
-﻿namespace SelfServiceKioskSystem.DTOs
-{
+﻿namespace SelfServiceKioskSystem.DTOs;
+using SelfServiceKioskSystem.Models.DTOs;
+
     public class CategoryProductsDisplayDTO
     {
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
-        //public List<ProductDTO> Product { get; set; }
+        public List<ProductDTO> Products { get; set; }
         public string Name { get; set; }
         public string ImageURL { get; set; }
        // public string CategoryName { get; set; }
@@ -14,6 +15,8 @@
         public int Quantity { get; set; }
        // public int ProductID { get; set; }
 
+
+
     }
-}
+
 

@@ -17,27 +17,7 @@
   },
   {
     "ContainingType": "SelfServiceKioskSystem.Controllers.CategoryController",
-    "Method": "GetAllCategories",
-    "RelativePath": "api/Category",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[SelfServiceKioskSystem.Models.Category, SelfServiceKioskSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "SelfServiceKioskSystem.Controllers.CategoryController",
-    "Method": "GetCategoryById",
+    "Method": "GetCategory",
     "RelativePath": "api/Category/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -49,17 +29,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "SelfServiceKioskSystem.Models.Category",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "SelfServiceKioskSystem.Controllers.CategoryController",

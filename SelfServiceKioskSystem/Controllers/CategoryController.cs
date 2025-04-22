@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SelfServiceKioskSystem.DTOs;
 using SelfServiceKioskSystem.Models;
 using SelfServiceKioskSystem.Data;
+using SelfServiceKioskSystem.Models.DTOs;
 
 namespace SelfServiceKioskSystem.Controllers
 {
@@ -36,7 +37,7 @@ namespace SelfServiceKioskSystem.Controllers
             return Ok(category);
         }
 
-       /* [HttpGet("{id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetCategory(int id)
         {
             var category = await _context.Categories
@@ -50,22 +51,25 @@ namespace SelfServiceKioskSystem.Controllers
             {
                 CategoryID = category.CategoryID,
                 CategoryName = category.CategoryName,
-                Name = category.Products
-                    .Where(p => p.isAvailable) // Filter only active products
-                    .Select(p => new CategoryProductsDisplayDTO
+                Products = category.Products
+                    .Where(p => p.isAvailable)
+                    .Select(p => new ProductDTO
                     {
                         ProductID = p.ProductID,
                         Name = p.Name,
-                        Description = p.Description,
-                        Price = p.Price,
                         ImageURL = p.ImageURL,
+                        CategoryName = category.CategoryName,
+                        Price = p.Price,
+                        IsAvailable = p.isAvailable,
+                        Description = p.Description,
                         Quantity = p.Quantity
                     })
                     .ToList()
             };
 
+
             return Ok(response);
-        }*/
+        }
 
 
         [HttpPut("{id}")]
