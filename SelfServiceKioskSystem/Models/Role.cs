@@ -6,12 +6,10 @@ namespace SelfServiceKioskSystem.Models
 {
     public class Role
     {
-        [Key]
         public int RoleID { get; set; }
-        public string RoleName { get; set; }
-
-        // Navigation property
+        public string UserRole { get; set; }
         public ICollection<User> Users { get; set; }
     }
+
 
 }

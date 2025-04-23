@@ -5,16 +5,13 @@ namespace SelfServiceKioskSystem.Models
 {
     public class Wallet
     {
-        [Key]
         public int WalletID { get; set; }
-
-        [ForeignKey("User")]
-        public int UserID { get; set; }
-
         public decimal Balance { get; set; }
 
+        public int UserID { get; set; }
         public User User { get; set; }
 
-        public ICollection<TransactionDetail> TransactionDetails { get; set; }
+        public List<TransactionDetail> TransactionDetails { get; set; }
     }
+
 }

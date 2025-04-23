@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-/*namespace SelfServiceKioskSystem.Controllers
+namespace SelfServiceKioskSystem.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -27,12 +27,9 @@ using System.Threading.Tasks;
         public async Task<ActionResult<IEnumerable<RoleDTO>>> GetRoles()
         {
             var roles = await _context.Roles
-                .Include(r => r.User)
                 .Select(r => new RoleDTO
                 {
                     RoleID = r.RoleID,
-                    UserID = r.UserID,
-                    UserEmail = r.User.Email,
                     UserRole = r.UserRole
                 })
                 .ToListAsync();
@@ -40,41 +37,31 @@ using System.Threading.Tasks;
             return Ok(roles);
         }
 
-        [HttpPost]
-        [Authorize(Roles = "Superuser")] // Only Superusers can assign roles
-        public async Task<IActionResult> AssignRole([FromBody] RoleDTO roleDto)
+        [HttpPost("assign")]
+        [Authorize(Roles = "Superuser")]
+        public async Task<IActionResult> AssignRoleToUser([FromBody] RoleDTO roleDto)
         {
-            if (roleDto == null || string.IsNullOrWhiteSpace(roleDto.UserRole))
+            if (roleDto == null || roleDto.RoleID == 0)
                 return BadRequest("Invalid role data.");
-
-            var allowedRoles = new[] { "User", "Superuser" };
-            if (!allowedRoles.Contains(roleDto.UserRole))
-                return BadRequest("Only 'User' or 'Superuser' roles are allowed.");
 
             var user = await _context.Users.FindAsync(roleDto.UserID);
             if (user == null)
                 return NotFound("User not found.");
 
-         /*   var existing = await _context.Roles
-                .AnyAsync(r => r.UserID == roleDto.UserID && r.UserRole == roleDto.UserRole);*/
+            var role = await _context.Roles.FindAsync(roleDto.RoleID);
+            if (role == null)
+                return NotFound("Role not found.");
 
-   /*         if (existing)
-                return BadRequest("This user already has this role assigned.");
+            if (user.RoleID == role.RoleID)
+                return BadRequest("User already has this role.");
 
-           /* var role = new Role
-            {
-                UserID = roleDto.UserID,
-                UserRole = roleDto.UserRole
-            };*/
-
-         /*   _context.Roles.Add(role);
+            user.RoleID = role.RoleID;
             await _context.SaveChangesAsync();
 
             return Ok("Role assigned successfully.");
         }
 
-
- /*       [HttpDelete("{id}")]
+        [HttpDelete("{id}")]
         [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> DeleteRole(int id)
         {
@@ -82,9 +69,15 @@ using System.Threading.Tasks;
             if (role == null)
                 return NotFound();
 
+            // Prevent deletion if any users are using this role
+            bool hasUsers = await _context.Users.AnyAsync(u => u.RoleID == id);
+            if (hasUsers)
+                return BadRequest("Cannot delete a role assigned to users.");
+
             _context.Roles.Remove(role);
             await _context.SaveChangesAsync();
+
             return NoContent();
         }
     }
-}*/
+}

@@ -14,9 +14,6 @@ namespace SelfServiceKioskSystem.Models
         [ForeignKey("User")]
         public int UserID { get; set; }
 
-        [ForeignKey("ProductID")]
-        public int ProductID { get; set; }
-
         [ForeignKey("Wallet")]
         public int WalletID { get; set; }
 
@@ -25,7 +22,6 @@ namespace SelfServiceKioskSystem.Models
         public decimal TotalAmount { get; set; }
 
         public User User { get; set; }
-
 
         public TransactionDetail Transaction { get; set; }
         public ICollection<Product> Products { get; set; }

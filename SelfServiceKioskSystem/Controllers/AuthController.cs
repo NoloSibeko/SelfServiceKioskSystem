@@ -75,7 +75,7 @@ namespace SelfServiceKioskSystem.Controllers
                     user.UserID,
                     user.Name,
                     user.Email,
-                    Role = user.Role.RoleName
+                    Role = user.Role.UserRole
                 }
             });
         }
@@ -89,7 +89,7 @@ namespace SelfServiceKioskSystem.Controllers
             {
                 new Claim(ClaimTypes.NameIdentifier, user.UserID.ToString()),
                 new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.Role, user.Role.RoleName)
+                new Claim(ClaimTypes.Role, user.Role.UserRole)
             };
 
             var token = new JwtSecurityToken(

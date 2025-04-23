@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "eeviVfC9L1Nb19Y91tmq2ZB8r2gNj35p51V0Tc/WjjY=",
+  "Source": "SelfServiceKioskSystem",
+  "BasePath": "_content/SelfServiceKioskSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
