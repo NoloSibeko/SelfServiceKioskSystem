@@ -5,6 +5,7 @@ using SelfServiceKioskSystem.DTOs;
 using SelfServiceKioskSystem.Models;
 using SelfServiceKioskSystem.Data;
 using SelfServiceKioskSystem.Models.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SelfServiceKioskSystem.Controllers
 {
@@ -19,7 +20,9 @@ namespace SelfServiceKioskSystem.Controllers
             _context = context;
         }
 
+
         [HttpPost]
+        [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> CreateCategory(CreateCategoryDTO dto)
         {
             if (!ModelState.IsValid)
@@ -73,6 +76,7 @@ namespace SelfServiceKioskSystem.Controllers
 
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> UpdateCategory(int id, CreateCategoryDTO dto)
         {
             var category = await _context.Categories.FindAsync(id);
@@ -88,6 +92,7 @@ namespace SelfServiceKioskSystem.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
             var category = await _context.Categories.FindAsync(id);

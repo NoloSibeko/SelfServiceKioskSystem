@@ -36,7 +36,8 @@ namespace SelfServiceKioskSystem.Controllers
                     Name = p.Name,
                     ImageURL = $"{baseUrl}/images/products/{p.ImageURL}",
                     CategoryName = p.Category.CategoryName,
-                    Price = p.Price
+                    Price = p.Price,
+                    Quantity = p.Quantity,
                 })
                 .ToListAsync();
 
@@ -60,6 +61,7 @@ namespace SelfServiceKioskSystem.Controllers
                 Description = dto.Description,
                 Price = dto.Price,
                 CategoryID = dto.CategoryID,
+                Quantity = dto.Quantity,
                 ImageURL = imageFileName
             };
 

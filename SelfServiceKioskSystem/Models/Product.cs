@@ -27,7 +27,7 @@ namespace SelfServiceKioskSystem.Models
 
         public Category Category { get; set; }
 
-        public User User { get; set; }
+        //public User User { get; set; }
 
         public ICollection<Cart> Carts { get; set; }
     }

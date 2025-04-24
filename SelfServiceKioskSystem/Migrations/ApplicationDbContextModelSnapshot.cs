@@ -45,9 +45,6 @@ namespace SelfServiceKioskSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartID"));
 
-                    b.Property<int>("ProductID")
-                        .HasColumnType("int");
-
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
@@ -79,15 +76,39 @@ namespace SelfServiceKioskSystem.Migrations
 
                     b.Property<string>("CategoryName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("CategoryID");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryID = 1,
+                            CategoryName = "Hot Beverages"
+                        },
+                        new
+                        {
+                            CategoryID = 2,
+                            CategoryName = "Cold Drinks"
+                        },
+                        new
+                        {
+                            CategoryID = 3,
+                            CategoryName = "Snacks"
+                        },
+                        new
+                        {
+                            CategoryID = 4,
+                            CategoryName = "Hot Meals"
+                        },
+                        new
+                        {
+                            CategoryID = 5,
+                            CategoryName = "Desserts"
+                        });
                 });
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Product", b =>
@@ -120,17 +141,12 @@ namespace SelfServiceKioskSystem.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserID")
-                        .HasColumnType("int");
-
                     b.Property<bool>("isAvailable")
                         .HasColumnType("bit");
 
                     b.HasKey("ProductID");
 
                     b.HasIndex("CategoryID");
-
-                    b.HasIndex("UserID");
 
                     b.ToTable("Products");
                 });
@@ -143,17 +159,11 @@ namespace SelfServiceKioskSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleID"));
 
-                    b.Property<int>("UserID")
-                        .HasColumnType("int");
-
                     b.Property<string>("UserRole")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("RoleID");
-
-                    b.HasIndex("UserID")
-                        .IsUnique();
 
                     b.ToTable("Roles");
 
@@ -161,13 +171,11 @@ namespace SelfServiceKioskSystem.Migrations
                         new
                         {
                             RoleID = 1,
-                            UserID = 0,
                             UserRole = "User"
                         },
                         new
                         {
                             RoleID = 2,
-                            UserID = 0,
                             UserRole = "Superuser"
                         });
                 });
@@ -225,7 +233,6 @@ namespace SelfServiceKioskSystem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -240,15 +247,16 @@ namespace SelfServiceKioskSystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("RoleID")
+                        .HasColumnType("int");
+
                     b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserRole")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("UserID");
+
+                    b.HasIndex("RoleID");
 
                     b.ToTable("Users");
                 });
@@ -310,26 +318,7 @@ namespace SelfServiceKioskSystem.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SelfServiceKioskSystem.Models.User", "User")
-                        .WithMany("Products")
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Category");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("SelfServiceKioskSystem.Models.Role", b =>
-                {
-                    b.HasOne("SelfServiceKioskSystem.Models.User", "User")
-                        .WithOne("Role")
-                        .HasForeignKey("SelfServiceKioskSystem.Models.Role", "UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.TransactionDetail", b =>
@@ -359,6 +348,17 @@ namespace SelfServiceKioskSystem.Migrations
                     b.Navigation("Wallet");
                 });
 
+            modelBuilder.Entity("SelfServiceKioskSystem.Models.User", b =>
+                {
+                    b.HasOne("SelfServiceKioskSystem.Models.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+                });
+
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Wallet", b =>
                 {
                     b.HasOne("SelfServiceKioskSystem.Models.User", "User")
@@ -381,14 +381,14 @@ namespace SelfServiceKioskSystem.Migrations
                     b.Navigation("Products");
                 });
 
+            modelBuilder.Entity("SelfServiceKioskSystem.Models.Role", b =>
+                {
+                    b.Navigation("Users");
+                });
+
             modelBuilder.Entity("SelfServiceKioskSystem.Models.User", b =>
                 {
                     b.Navigation("Carts")
-                        .IsRequired();
-
-                    b.Navigation("Products");
-
-                    b.Navigation("Role")
                         .IsRequired();
 
                     b.Navigation("Transaction");

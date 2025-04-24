@@ -17,24 +17,31 @@ namespace SelfServiceKioskSystem.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
+        private readonly JwtHelper _jwtHelper;
 
-        public AuthController(ApplicationDbContext context, IConfiguration configuration)
+        public AuthController(ApplicationDbContext context, IConfiguration configuration, JwtHelper jwtHelper)
         {
             _context = context;
             _configuration = configuration;
+            _jwtHelper = jwtHelper;
         }
 
         // POST: api/Auth/register
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterUserDTO dto)
         {
-            if (await _context.Users.AnyAsync(u => u.Email == dto.Email))
-            {
-                return BadRequest(new { message = "Email already registered." });
-            }
+            // Validation
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
+            // Check if user exists
+            if (await _context.Users.AnyAsync(u => u.Email == dto.Email))
+                return Conflict("User already exists");
+
+            // Create wallet
             var wallet = new Wallet { Balance = 0 };
 
+            // Create user
             var user = new User
             {
                 Name = dto.Name,
@@ -42,14 +49,15 @@ namespace SelfServiceKioskSystem.Controllers
                 Email = dto.Email,
                 ContactNumber = dto.ContactNumber,
                 Password = BCrypt.Net.BCrypt.HashPassword(dto.Password),
-                Wallet = wallet,
-                RoleID = 1 // Default to "User"
+                AccountStatus = dto.AccountStatus,
+                RoleID = 1, 
+                Wallet = wallet
             };
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            return Ok(new { message = "Registration successful." });
+            return Ok(new { Message = "Registration successful" });
         }
 
         // POST: api/Auth/login
@@ -65,7 +73,7 @@ namespace SelfServiceKioskSystem.Controllers
                 return Unauthorized(new { message = "Invalid credentials." });
             }
 
-            var token = GenerateJwtToken(user);
+            var token = _jwtHelper.GenerateToken(user);
 
             return Ok(new
             {
@@ -73,11 +81,15 @@ namespace SelfServiceKioskSystem.Controllers
                 user = new
                 {
                     user.UserID,
-                    user.Name,
                     user.Email,
-                    Role = user.Role.UserRole
+                    Role = user.Role.UserRole,                 
+                    user.Name,
+                    user.Surname,
+                    WalletBalance = user.Wallet?.Balance ?? 0
+
                 }
             });
+           
         }
 
         private string GenerateJwtToken(User user)

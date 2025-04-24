@@ -19,8 +19,8 @@ namespace SelfServiceKioskSystem.DTOs
         public string ContactNumber { get; set; }
 
         [Required]
-        [MinLength(8, ErrorMessage = "Password is too short")]
-        [RegularExpression(@"^(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$", ErrorMessage = "Password not strong enough")]
+        [MinLength(8)]
+        [RegularExpression(@"^(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$", ErrorMessage = "Password not strong or long enough")]
         public string Password { get; set; }
     }
 }

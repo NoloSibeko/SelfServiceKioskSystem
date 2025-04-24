@@ -21,7 +21,7 @@ namespace SelfServiceKioskSystem.Controllers
 
         // Only Superusers can create, update, or delete users
         [HttpPost]
-        [SuperuserOnly]
+        [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> CreateUser([FromBody] User user)
         {
             if (user == null)
@@ -33,7 +33,7 @@ namespace SelfServiceKioskSystem.Controllers
         }
 
         [HttpPut("{id}")]
-        [SuperuserOnly]
+        [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] User user)
         {
             if (id != user.UserID)
@@ -53,7 +53,7 @@ namespace SelfServiceKioskSystem.Controllers
         }
 
         [HttpDelete("{id}")]
-        [SuperuserOnly]
+        [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> DeleteUser(int id)
         {
             var user = await _context.Users.FindAsync(id);
@@ -66,6 +66,7 @@ namespace SelfServiceKioskSystem.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> GetUser(int id)
         {
             var user = await _context.Users.FindAsync(id);

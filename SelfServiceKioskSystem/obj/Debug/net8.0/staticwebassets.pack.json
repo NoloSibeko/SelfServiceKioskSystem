@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\3e9aeb8c-9d73-4400-b220-1153e9c2de73.webp",
+      "PackagePath": "staticwebassets\\images\\products\\3e9aeb8c-9d73-4400-b220-1153e9c2de73.webp"
+    },
+    {
+      "Id": "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\5aabe68e-b93a-4356-93ab-029446acf705",
+      "PackagePath": "staticwebassets\\images\\products"
+    },
+    {
+      "Id": "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\8dcdaef2-573b-4eb5-99b8-d53c325b0be2",
+      "PackagePath": "staticwebassets\\images\\products"
+    },
+    {
+      "Id": "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\b0d79e12-eff2-4e8c-a597-cc03a06a060c",
+      "PackagePath": "staticwebassets\\images\\products"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SelfServiceKioskSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SelfServiceKioskSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SelfServiceKioskSystem.props",
+      "PackagePath": "build\\SelfServiceKioskSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SelfServiceKioskSystem.props",
+      "PackagePath": "buildMultiTargeting\\SelfServiceKioskSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SelfServiceKioskSystem.props",
+      "PackagePath": "buildTransitive\\SelfServiceKioskSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

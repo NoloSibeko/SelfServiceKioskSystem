@@ -15,12 +15,14 @@ namespace SelfServiceKioskSystem.DTOs
         [RegularExpression(@"^[^@\s]+@singular\.co\.za$", ErrorMessage = "Invalid Email Address")]
         public string Email { get; set; }
 
-        [Required]
-        public string ContactNumber { get; set; }
+        //[Required]
+        public string? ContactNumber { get; set; }
 
         [Required]
         [MinLength(8)]
         [RegularExpression(@"^(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$", ErrorMessage = "Password not strong or long enough")]
         public string Password { get; set; }
+
+        public string AccountStatus { get; set; } = "Active";
     }
 }

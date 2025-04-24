@@ -19,6 +19,8 @@ namespace SelfServiceKioskSystem.DTOs
 
         public bool IsAvailable { get; set; }
 
+        public int Quantity    { get; set; }
+
         [Required]
         public int CategoryID { get; set; }
 

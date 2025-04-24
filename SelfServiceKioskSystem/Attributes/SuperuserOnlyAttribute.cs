@@ -7,7 +7,6 @@ namespace SelfServiceKioskSystem.Attributes
     {
         public SuperuserOnlyAttribute()
         {
-            // Require superuser role for this action
             Roles = "Superuser";
         }
     }

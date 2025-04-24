@@ -19,51 +19,49 @@ namespace SelfServiceKioskSystem.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Relationships
-
-            // User-Wallet (1:1)
+      
             modelBuilder.Entity<User>()
                 .HasOne(u => u.Wallet)
                 .WithOne(w => w.User)
                 .HasForeignKey<Wallet>(w => w.UserID);
 
-            // User-Cart (1:1)
+            
            /* modelBuilder.Entity<User>()
                 .HasOne(u => u.Carts)
                 .WithOne(c => c.User)
                 .HasForeignKey<Cart>(c => c.UserID);*/
 
-           /* // User-Transactions (1:N)
+           /* 
             modelBuilder.Entity<User>()
                 .HasMany(u => u.Transaction)
                 .WithOne(t => t.User)
                 .HasForeignKey(t => t.UserID);*/
 
-            // Wallet-Transactions (1:N)
+            
             modelBuilder.Entity<Wallet>()
                 .HasMany(w => w.TransactionDetails)
                 .WithOne(t => t.Wallet)
                 .HasForeignKey(t => t.WalletID);
 
-            // Category-Product (1:N)
+            
             modelBuilder.Entity<Category>()
                 .HasMany(c => c.Products)
                 .WithOne(p => p.Category)
                 .HasForeignKey(p => p.CategoryID);
 
-            // Cart-Products (M:N)
+            
             modelBuilder.Entity<Cart>()
                 .HasMany(c => c.Products)
                 .WithMany(p => p.Carts)
                 .UsingEntity(j => j.ToTable("CartProducts"));
 
-            // Cart-Transaction (1:1)
+            
             modelBuilder.Entity<Cart>()
                 .HasOne(c => c.Transaction)
                 .WithOne(t => t.Cart)
                 .HasForeignKey<TransactionDetail>(t => t.CartID);
 
-            // Precision settings
+            
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
                 .HasPrecision(18, 2);
@@ -82,9 +80,34 @@ namespace SelfServiceKioskSystem.Data
 
             // Seed Roles
             modelBuilder.Entity<Role>().HasData(
-                new Role { RoleID = 1, RoleName = "User" },
-                new Role { RoleID = 2, RoleName = "Superuser" }
+                new Role { RoleID = 1, UserRole = "User" },
+                new Role { RoleID = 2, UserRole = "Superuser" }
             );
+
+           /* // Seed Wallet for the superuser
+            modelBuilder.Entity<Wallet>().HasData(
+                new Wallet
+                {
+                    WalletID = 1,
+                    UserID = 1, 
+                    Balance = 0
+                }
+            );
+
+            // Seed SuperUser
+            modelBuilder.Entity<User>().HasData(
+
+                new User {
+                    UserID = 1, 
+                    Name = "Bonolo",
+                    Surname = "Sibeko",
+                    Email = "bonolo@singular.co.za",
+                    ContactNumber = "0620912838",
+                    Password = BCrypt.Net.BCrypt.HashPassword("BonoloSibeko123#"),
+                    AccountStatus = "Active",
+                    RoleID = 2 
+                }
+            );*/
 
             // Seed Categories
             modelBuilder.Entity<Category>().HasData(
@@ -94,6 +117,8 @@ namespace SelfServiceKioskSystem.Data
                 new Category { CategoryID = 4, CategoryName = "Hot Meals" },
                 new Category { CategoryID = 5, CategoryName = "Desserts" }
             );
+
+           
         }
     }
 }
