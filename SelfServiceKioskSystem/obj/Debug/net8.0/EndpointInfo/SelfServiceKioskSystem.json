@@ -96,6 +96,16 @@
             "description": "OK"
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Category/{id}": {

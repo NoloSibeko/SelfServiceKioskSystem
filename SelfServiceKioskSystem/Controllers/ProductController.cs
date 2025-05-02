@@ -96,27 +96,21 @@ namespace SelfServiceKioskSystem.Controllers
        
         [Authorize(Roles = "Superuser")]
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
+        public async Task<IActionResult> DeleteProduct(int id)
         {
-            var user = await _context.Users
-                .Include(u => u.Wallet)
-                .Include(u => u.Role)
-                .FirstOrDefaultAsync(u => u.UserID == id);
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+                return NotFound("Product not found.");
 
-            if (user == null)
-                return NotFound("User not found.");
+            // Optionally: Delete image from file system
+            var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "products", product.ImageURL);
+            if (System.IO.File.Exists(imagePath))
+                System.IO.File.Delete(imagePath);
 
-            // Remove related records first
-            if (user.Wallet != null)
-                _context.Wallets.Remove(user.Wallet);
-
-            if (user.Role != null)
-                _context.Roles.Remove(user.Role);
-
-            _context.Users.Remove(user);
+            _context.Products.Remove(product);
             await _context.SaveChangesAsync();
 
-            return Ok(new { message = "User deleted successfully." });
+            return Ok(new { message = "Product deleted successfully." });
         }
 
         //  Place the helper method at the bottom

@@ -12,8 +12,8 @@ using SelfServiceKioskSystem.Data;
 namespace SelfServiceKioskSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250423075707_RoleFix")]
-    partial class RoleFix
+    [Migration("20250429102828_SeedUpdates")]
+    partial class SeedUpdates
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -144,17 +144,12 @@ namespace SelfServiceKioskSystem.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserID")
-                        .HasColumnType("int");
-
                     b.Property<bool>("isAvailable")
                         .HasColumnType("bit");
 
                     b.HasKey("ProductID");
 
                     b.HasIndex("CategoryID");
-
-                    b.HasIndex("UserID");
 
                     b.ToTable("Products");
                 });
@@ -241,7 +236,6 @@ namespace SelfServiceKioskSystem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -327,15 +321,7 @@ namespace SelfServiceKioskSystem.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SelfServiceKioskSystem.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Category");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.TransactionDetail", b =>
@@ -343,13 +329,13 @@ namespace SelfServiceKioskSystem.Migrations
                     b.HasOne("SelfServiceKioskSystem.Models.Cart", "Cart")
                         .WithOne("Transaction")
                         .HasForeignKey("SelfServiceKioskSystem.Models.TransactionDetail", "CartID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("SelfServiceKioskSystem.Models.User", "User")
                         .WithMany("Transaction")
                         .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("SelfServiceKioskSystem.Models.Wallet", "Wallet")

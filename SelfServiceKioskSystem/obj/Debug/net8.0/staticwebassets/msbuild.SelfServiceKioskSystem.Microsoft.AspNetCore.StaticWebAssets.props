@@ -1,5 +1,59 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\0494d688-fe90-4286-81bd-f96234acf6ff.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SelfServiceKioskSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SelfServiceKioskSystem</BasePath>
+      <RelativePath>images/products/0494d688-fe90-4286-81bd-f96234acf6ff.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fjklqtg2aq</Fingerprint>
+      <Integrity>xTaSfLryEBHhCpPE97r4fLBynfuZ+AJHKPibE74p0mw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\0494d688-fe90-4286-81bd-f96234acf6ff.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\1cd6fd98-9334-44bc-9c8f-cec32d723a6d.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SelfServiceKioskSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SelfServiceKioskSystem</BasePath>
+      <RelativePath>images/products/1cd6fd98-9334-44bc-9c8f-cec32d723a6d.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>k7olwxv9dc</Fingerprint>
+      <Integrity>MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\1cd6fd98-9334-44bc-9c8f-cec32d723a6d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\27fc5a78-2586-4568-8eed-66a2d9afc582.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SelfServiceKioskSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SelfServiceKioskSystem</BasePath>
+      <RelativePath>images/products/27fc5a78-2586-4568-8eed-66a2d9afc582.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zvb78ldgga</Fingerprint>
+      <Integrity>EXwOOV33D67aHR3Mup/83g3ucdbngxbwXc6ErfPkfpg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\27fc5a78-2586-4568-8eed-66a2d9afc582.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3e9aeb8c-9d73-4400-b220-1153e9c2de73.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>SelfServiceKioskSystem</SourceId>
@@ -36,6 +90,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\5aabe68e-b93a-4356-93ab-029446acf705'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\751e7a6d-c100-404d-bd4b-df18b1e05077.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SelfServiceKioskSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SelfServiceKioskSystem</BasePath>
+      <RelativePath>images/products/751e7a6d-c100-404d-bd4b-df18b1e05077.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m1zpj6nuxr</Fingerprint>
+      <Integrity>qji86i09g8BeJHNn8SvSaKFVGVtG/SDZb+Rm0I7h2/Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\751e7a6d-c100-404d-bd4b-df18b1e05077.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\8dcdaef2-573b-4eb5-99b8-d53c325b0be2'))">
       <SourceType>Package</SourceType>
       <SourceId>SelfServiceKioskSystem</SourceId>
@@ -54,6 +126,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\8dcdaef2-573b-4eb5-99b8-d53c325b0be2'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\a01e404b-d846-4c02-99a3-66a839f58c7f.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SelfServiceKioskSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SelfServiceKioskSystem</BasePath>
+      <RelativePath>images/products/a01e404b-d846-4c02-99a3-66a839f58c7f.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m1zpj6nuxr</Fingerprint>
+      <Integrity>qji86i09g8BeJHNn8SvSaKFVGVtG/SDZb+Rm0I7h2/Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\a01e404b-d846-4c02-99a3-66a839f58c7f.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\b0d79e12-eff2-4e8c-a597-cc03a06a060c'))">
       <SourceType>Package</SourceType>
       <SourceId>SelfServiceKioskSystem</SourceId>
@@ -71,6 +161,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\b0d79e12-eff2-4e8c-a597-cc03a06a060c'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\fc2c5608-1c63-4df1-9b53-bc51776ca22c.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SelfServiceKioskSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SelfServiceKioskSystem</BasePath>
+      <RelativePath>images/products/fc2c5608-1c63-4df1-9b53-bc51776ca22c.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8kbdfy5rme</Fingerprint>
+      <Integrity>yMINK3CoQZ1DjnANb6qw8GlQ7Ce0ZglpY+NcFGJXwQU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\fc2c5608-1c63-4df1-9b53-bc51776ca22c.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

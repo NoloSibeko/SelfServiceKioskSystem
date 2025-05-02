@@ -12,8 +12,8 @@ using SelfServiceKioskSystem.Data;
 namespace SelfServiceKioskSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250423102735_MakeContactNumberNullable")]
-    partial class MakeContactNumberNullable
+    [Migration("20250429101859_InitWithUpdatedSeeds")]
+    partial class InitWithUpdatedSeeds
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -144,17 +144,12 @@ namespace SelfServiceKioskSystem.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserID")
-                        .HasColumnType("int");
-
                     b.Property<bool>("isAvailable")
                         .HasColumnType("bit");
 
                     b.HasKey("ProductID");
 
                     b.HasIndex("CategoryID");
-
-                    b.HasIndex("UserID");
 
                     b.ToTable("Products");
                 });
@@ -241,7 +236,6 @@ namespace SelfServiceKioskSystem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -327,15 +321,7 @@ namespace SelfServiceKioskSystem.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SelfServiceKioskSystem.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Category");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.TransactionDetail", b =>

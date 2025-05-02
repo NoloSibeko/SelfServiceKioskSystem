@@ -11,13 +11,10 @@ namespace SelfServiceKioskSystem.Models
         [Key]
         public int TransactionID { get; set; }
 
-        [ForeignKey("User")]
         public int UserID { get; set; }
 
-        [ForeignKey("Wallet")]
         public int WalletID { get; set; }
 
-        [ForeignKey("Cart")]
         public int CartID { get; set; }
 
         public DateTime TransactionDate { get; set; }

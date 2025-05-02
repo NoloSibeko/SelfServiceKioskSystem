@@ -104,5 +104,21 @@ namespace SelfServiceKioskSystem.Controllers
 
             return NoContent();
         }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> GetAllCategories()
+        {
+            var categories = await _context.Categories
+                .Select(c => new
+                {
+                    c.CategoryID,
+                    c.CategoryName
+                })
+                .ToListAsync();
+
+            return Ok(categories);
+        }
+
     }
 }

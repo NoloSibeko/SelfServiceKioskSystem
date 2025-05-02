@@ -85,11 +85,27 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 var app = builder.Build();
 
-// Seed Superuser
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    context.Database.Migrate(); // Ensure DB is up-to-date with seeding
 
+    // Ensure Roles are seeded before anything else
+    if (!context.Roles.Any())
+    {
+        context.Roles.AddRange(
+            new Role { RoleID = 1, UserRole = "User" },
+            new Role { RoleID = 2, UserRole = "Superuser" }
+        );
+        context.SaveChanges();
+    }
+
+    var superuserRole = context.Roles.FirstOrDefault(r => r.RoleID == 2 && r.UserRole == "Superuser");
+
+    if (superuserRole == null)
+        throw new Exception("RoleID 2 (Superuser) was not found. Seeding failed.");
+
+    // Seed Superuser only if it doesn't exist
     if (!context.Users.Any(u => u.Email == "superuser@singular.co.za"))
     {
         var wallet = new Wallet { Balance = 0 };
@@ -103,13 +119,14 @@ using (var scope = app.Services.CreateScope())
             AccountStatus = "Active",
             Password = BCrypt.Net.BCrypt.HashPassword("BonoloSibeko123#"),
             Wallet = wallet,
-            RoleID = 2 // RoleID = 2 means Superuser
+            RoleID = superuserRole.RoleID
         };
 
         context.Users.Add(superuser);
         context.SaveChanges();
     }
 }
+
 
 
 // Configure the HTTP request pipeline.

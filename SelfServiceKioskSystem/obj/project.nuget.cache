@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7s/dmew5OD4=",
+  "dgSpecHash": "LsByGVnRjS4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj",
+  "projectFilePath": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BSibeko\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\BSibeko\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

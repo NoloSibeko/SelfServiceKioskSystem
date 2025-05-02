@@ -49,6 +49,16 @@
   },
   {
     "ContainingType": "SelfServiceKioskSystem.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.CategoryController",
     "Method": "GetCategory",
     "RelativePath": "api/Category/{id}",
     "HttpMethod": "GET",
@@ -219,7 +229,7 @@
   },
   {
     "ContainingType": "SelfServiceKioskSystem.Controllers.ProductController",
-    "Method": "DeleteUser",
+    "Method": "DeleteProduct",
     "RelativePath": "api/Product/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,

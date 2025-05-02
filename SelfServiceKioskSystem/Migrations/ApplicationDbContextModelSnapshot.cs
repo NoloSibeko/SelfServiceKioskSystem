@@ -326,13 +326,13 @@ namespace SelfServiceKioskSystem.Migrations
                     b.HasOne("SelfServiceKioskSystem.Models.Cart", "Cart")
                         .WithOne("Transaction")
                         .HasForeignKey("SelfServiceKioskSystem.Models.TransactionDetail", "CartID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("SelfServiceKioskSystem.Models.User", "User")
                         .WithMany("Transaction")
                         .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("SelfServiceKioskSystem.Models.Wallet", "Wallet")

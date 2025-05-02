@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj": {}
+    "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj": {
+    "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj",
+        "projectUniqueName": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj",
         "projectName": "SelfServiceKioskSystem",
-        "projectPath": "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj",
+        "projectPath": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj",
         "packagesPath": "C:\\Users\\BSibeko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BSibeko\\Source\\Repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\obj\\",
+        "outputPath": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
