@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DRicaCvkvKFSwMGHBmaZYwAUESx73zpkufFaZELbY8E=",
+  "Hash": "8ZwRdBFTSCDbtWx303Dcd4tOqw1Frbz9ADnxtzhgGjY=",
   "Source": "SelfServiceKioskSystem",
   "BasePath": "_content/SelfServiceKioskSystem",
   "Mode": "Default",
@@ -38,6 +38,27 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\0494d688-fe90-4286-81bd-f96234acf6ff.webp"
     },
     {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\056258b8-3ba4-4ee1-b685-bb6d2dee839c.jpg",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/056258b8-3ba4-4ee1-b685-bb6d2dee839c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k7olwxv9dc",
+      "Integrity": "MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\056258b8-3ba4-4ee1-b685-bb6d2dee839c.jpg"
+    },
+    {
       "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\1cd6fd98-9334-44bc-9c8f-cec32d723a6d.jpg",
       "SourceId": "SelfServiceKioskSystem",
       "SourceType": "Discovered",
@@ -57,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\1cd6fd98-9334-44bc-9c8f-cec32d723a6d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\244f74e3-9e48-457a-841a-877a81137ddd.jfif",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/244f74e3-9e48-457a-841a-877a81137ddd#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rj3im9zwu7",
+      "Integrity": "d6xxymfVKZQayiJajZejtUNXy+olEJqcJgVIeAY/HFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\244f74e3-9e48-457a-841a-877a81137ddd.jfif"
     },
     {
       "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\27fc5a78-2586-4568-8eed-66a2d9afc582.jpg",
@@ -80,6 +122,48 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\27fc5a78-2586-4568-8eed-66a2d9afc582.jpg"
     },
     {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\34f9d3d0-5387-412e-9818-f92a99530399.jpg",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/34f9d3d0-5387-412e-9818-f92a99530399#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9m52d44oqj",
+      "Integrity": "D3qOFiYkBOyURFxcEPxv2uKmFuH89v3UYcxnT9XUta4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\34f9d3d0-5387-412e-9818-f92a99530399.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\3a10cf75-372a-4ae4-9cb9-ecf323db6f8c.jpg",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/3a10cf75-372a-4ae4-9cb9-ecf323db6f8c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zvb78ldgga",
+      "Integrity": "EXwOOV33D67aHR3Mup/83g3ucdbngxbwXc6ErfPkfpg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\3a10cf75-372a-4ae4-9cb9-ecf323db6f8c.jpg"
+    },
+    {
       "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\3e9aeb8c-9d73-4400-b220-1153e9c2de73.webp",
       "SourceId": "SelfServiceKioskSystem",
       "SourceType": "Discovered",
@@ -101,6 +185,27 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\3e9aeb8c-9d73-4400-b220-1153e9c2de73.webp"
     },
     {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\4d7f31dd-4d8e-4fd2-8cb4-623195301ce3.jfif",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/4d7f31dd-4d8e-4fd2-8cb4-623195301ce3#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cjgcq0bkp0",
+      "Integrity": "uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\4d7f31dd-4d8e-4fd2-8cb4-623195301ce3.jfif"
+    },
+    {
       "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\5aabe68e-b93a-4356-93ab-029446acf705",
       "SourceId": "SelfServiceKioskSystem",
       "SourceType": "Discovered",
@@ -120,6 +225,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\5aabe68e-b93a-4356-93ab-029446acf705"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\68509564-dd53-4a1d-b58c-af915d00831c.jpg",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/68509564-dd53-4a1d-b58c-af915d00831c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xtjhl7mhxw",
+      "Integrity": "pc9/juYJ9lp0z0fXVrJJhyYPI/32n4UINSIxnyit7s4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\68509564-dd53-4a1d-b58c-af915d00831c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\732e119e-2e4a-4909-ab57-70e484b0292e.jfif",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/732e119e-2e4a-4909-ab57-70e484b0292e#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0qgfpu38dv",
+      "Integrity": "mNxMbdns48uRUj6vItBfbeweZjhNTfo/B4gD+C5IA9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\732e119e-2e4a-4909-ab57-70e484b0292e.jfif"
     },
     {
       "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\751e7a6d-c100-404d-bd4b-df18b1e05077.webp",
@@ -164,6 +311,48 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\8dcdaef2-573b-4eb5-99b8-d53c325b0be2"
     },
     {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\8fe40d3b-6dbd-40ee-b3d3-55905cc3f87e.jfif",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/8fe40d3b-6dbd-40ee-b3d3-55905cc3f87e#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xm0344hkfk",
+      "Integrity": "+UnfTw/NPGtaqYnnUOQl3Q0qEdtBRhoH+CYOzaD+Jcc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\8fe40d3b-6dbd-40ee-b3d3-55905cc3f87e.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\9e3e2ee4-752e-4077-b796-960951d53f05.jpg",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/9e3e2ee4-752e-4077-b796-960951d53f05#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "acbf9wprj6",
+      "Integrity": "1p9l9ByokZqqvXP5iqdZVuHyRF+wPXUtu0iPP7IBhqo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\9e3e2ee4-752e-4077-b796-960951d53f05.jpg"
+    },
+    {
       "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\a01e404b-d846-4c02-99a3-66a839f58c7f.webp",
       "SourceId": "SelfServiceKioskSystem",
       "SourceType": "Discovered",
@@ -204,6 +393,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\b0d79e12-eff2-4e8c-a597-cc03a06a060c"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\bbc53cb0-3c21-4c63-b75c-6b3c7903ec9a.webp",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/bbc53cb0-3c21-4c63-b75c-6b3c7903ec9a#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fjklqtg2aq",
+      "Integrity": "xTaSfLryEBHhCpPE97r4fLBynfuZ+AJHKPibE74p0mw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\bbc53cb0-3c21-4c63-b75c-6b3c7903ec9a.webp"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\d0eeffad-ef2f-434c-a3f6-6c40a589665b.jpg",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/d0eeffad-ef2f-434c-a3f6-6c40a589665b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k7olwxv9dc",
+      "Integrity": "MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\d0eeffad-ef2f-434c-a3f6-6c40a589665b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\d61eade7-782a-47f3-8e51-8d57a52b973c.jfif",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/d61eade7-782a-47f3-8e51-8d57a52b973c#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q4afx9yw2o",
+      "Integrity": "CoaiEtIWJXAOb6ne0MqCTHHnnWKmeTtDfAJSwRO+Q4A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\d61eade7-782a-47f3-8e51-8d57a52b973c.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\eb568d3b-a9ad-4c5e-8ef3-75e3bdb0f808.jfif",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/eb568d3b-a9ad-4c5e-8ef3-75e3bdb0f808#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1421max8pz",
+      "Integrity": "D/HIKQEHB57Ooo5Bv/KmAHpgl4Wpq4FQQIDiV2xwat0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\eb568d3b-a9ad-4c5e-8ef3-75e3bdb0f808.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\ef15a13a-edc6-4cdf-a3d5-78a720be0950.jfif",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/ef15a13a-edc6-4cdf-a3d5-78a720be0950#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cjgcq0bkp0",
+      "Integrity": "uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\ef15a13a-edc6-4cdf-a3d5-78a720be0950.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\f930d225-e0f7-4ef0-837f-039422e8d754.jpg",
+      "SourceId": "SelfServiceKioskSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\",
+      "BasePath": "_content/SelfServiceKioskSystem",
+      "RelativePath": "images/products/f930d225-e0f7-4ef0-837f-039422e8d754#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mc711x2ohg",
+      "Integrity": "dsCed5+Oc21Bxt7c8mlvoQxmQ4Fbpz0Bw30MrTX0p/c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\f930d225-e0f7-4ef0-837f-039422e8d754.jpg"
     },
     {
       "Identity": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\fc2c5608-1c63-4df1-9b53-bc51776ca22c.jpeg",
@@ -311,6 +626,88 @@
       ]
     },
     {
+      "Route": "images/products/056258b8-3ba4-4ee1-b685-bb6d2dee839c.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\056258b8-3ba4-4ee1-b685-bb6d2dee839c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "383840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/056258b8-3ba4-4ee1-b685-bb6d2dee839c.k7olwxv9dc.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\056258b8-3ba4-4ee1-b685-bb6d2dee839c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "383840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 09:54:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7olwxv9dc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/056258b8-3ba4-4ee1-b685-bb6d2dee839c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY="
+        }
+      ]
+    },
+    {
       "Route": "images/products/1cd6fd98-9334-44bc-9c8f-cec32d723a6d.jpg",
       "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\1cd6fd98-9334-44bc-9c8f-cec32d723a6d.jpg",
       "Selectors": [],
@@ -393,6 +790,88 @@
       ]
     },
     {
+      "Route": "images/products/244f74e3-9e48-457a-841a-877a81137ddd.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\244f74e3-9e48-457a-841a-877a81137ddd.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d6xxymfVKZQayiJajZejtUNXy+olEJqcJgVIeAY/HFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 12:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d6xxymfVKZQayiJajZejtUNXy+olEJqcJgVIeAY/HFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/244f74e3-9e48-457a-841a-877a81137ddd.rj3im9zwu7.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\244f74e3-9e48-457a-841a-877a81137ddd.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d6xxymfVKZQayiJajZejtUNXy+olEJqcJgVIeAY/HFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 12:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rj3im9zwu7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/244f74e3-9e48-457a-841a-877a81137ddd.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d6xxymfVKZQayiJajZejtUNXy+olEJqcJgVIeAY/HFU="
+        }
+      ]
+    },
+    {
       "Route": "images/products/27fc5a78-2586-4568-8eed-66a2d9afc582.jpg",
       "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\27fc5a78-2586-4568-8eed-66a2d9afc582.jpg",
       "Selectors": [],
@@ -467,6 +946,170 @@
         {
           "Name": "label",
           "Value": "images/products/27fc5a78-2586-4568-8eed-66a2d9afc582.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EXwOOV33D67aHR3Mup/83g3ucdbngxbwXc6ErfPkfpg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/34f9d3d0-5387-412e-9818-f92a99530399.9m52d44oqj.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\34f9d3d0-5387-412e-9818-f92a99530399.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D3qOFiYkBOyURFxcEPxv2uKmFuH89v3UYcxnT9XUta4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 11:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9m52d44oqj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/34f9d3d0-5387-412e-9818-f92a99530399.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D3qOFiYkBOyURFxcEPxv2uKmFuH89v3UYcxnT9XUta4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/34f9d3d0-5387-412e-9818-f92a99530399.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\34f9d3d0-5387-412e-9818-f92a99530399.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D3qOFiYkBOyURFxcEPxv2uKmFuH89v3UYcxnT9XUta4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 11:22:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D3qOFiYkBOyURFxcEPxv2uKmFuH89v3UYcxnT9XUta4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/3a10cf75-372a-4ae4-9cb9-ecf323db6f8c.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\3a10cf75-372a-4ae4-9cb9-ecf323db6f8c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122359"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EXwOOV33D67aHR3Mup/83g3ucdbngxbwXc6ErfPkfpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 09:35:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EXwOOV33D67aHR3Mup/83g3ucdbngxbwXc6ErfPkfpg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/3a10cf75-372a-4ae4-9cb9-ecf323db6f8c.zvb78ldgga.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\3a10cf75-372a-4ae4-9cb9-ecf323db6f8c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122359"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EXwOOV33D67aHR3Mup/83g3ucdbngxbwXc6ErfPkfpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 09:35:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zvb78ldgga"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/3a10cf75-372a-4ae4-9cb9-ecf323db6f8c.jpg"
         },
         {
           "Name": "integrity",
@@ -557,6 +1200,88 @@
       ]
     },
     {
+      "Route": "images/products/4d7f31dd-4d8e-4fd2-8cb4-623195301ce3.cjgcq0bkp0.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\4d7f31dd-4d8e-4fd2-8cb4-623195301ce3.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:48:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cjgcq0bkp0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/4d7f31dd-4d8e-4fd2-8cb4-623195301ce3.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/4d7f31dd-4d8e-4fd2-8cb4-623195301ce3.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\4d7f31dd-4d8e-4fd2-8cb4-623195301ce3.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:48:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E="
+        }
+      ]
+    },
+    {
       "Route": "images/products/5aabe68e-b93a-4356-93ab-029446acf705",
       "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\5aabe68e-b93a-4356-93ab-029446acf705",
       "Selectors": [],
@@ -635,6 +1360,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-e2mMHPN4TPK4IBufuFacN/Sif7yQK6rL6TQpI1T3LAs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/68509564-dd53-4a1d-b58c-af915d00831c.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\68509564-dd53-4a1d-b58c-af915d00831c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pc9/juYJ9lp0z0fXVrJJhyYPI/32n4UINSIxnyit7s4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:40:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pc9/juYJ9lp0z0fXVrJJhyYPI/32n4UINSIxnyit7s4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/68509564-dd53-4a1d-b58c-af915d00831c.xtjhl7mhxw.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\68509564-dd53-4a1d-b58c-af915d00831c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pc9/juYJ9lp0z0fXVrJJhyYPI/32n4UINSIxnyit7s4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:40:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xtjhl7mhxw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/68509564-dd53-4a1d-b58c-af915d00831c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pc9/juYJ9lp0z0fXVrJJhyYPI/32n4UINSIxnyit7s4="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/732e119e-2e4a-4909-ab57-70e484b0292e.0qgfpu38dv.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\732e119e-2e4a-4909-ab57-70e484b0292e.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mNxMbdns48uRUj6vItBfbeweZjhNTfo/B4gD+C5IA9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 09:41:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0qgfpu38dv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/732e119e-2e4a-4909-ab57-70e484b0292e.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNxMbdns48uRUj6vItBfbeweZjhNTfo/B4gD+C5IA9c="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/732e119e-2e4a-4909-ab57-70e484b0292e.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\732e119e-2e4a-4909-ab57-70e484b0292e.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mNxMbdns48uRUj6vItBfbeweZjhNTfo/B4gD+C5IA9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 09:41:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNxMbdns48uRUj6vItBfbeweZjhNTfo/B4gD+C5IA9c="
         }
       ]
     },
@@ -803,6 +1692,170 @@
       ]
     },
     {
+      "Route": "images/products/8fe40d3b-6dbd-40ee-b3d3-55905cc3f87e.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\8fe40d3b-6dbd-40ee-b3d3-55905cc3f87e.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+UnfTw/NPGtaqYnnUOQl3Q0qEdtBRhoH+CYOzaD+Jcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 09:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+UnfTw/NPGtaqYnnUOQl3Q0qEdtBRhoH+CYOzaD+Jcc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/8fe40d3b-6dbd-40ee-b3d3-55905cc3f87e.xm0344hkfk.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\8fe40d3b-6dbd-40ee-b3d3-55905cc3f87e.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+UnfTw/NPGtaqYnnUOQl3Q0qEdtBRhoH+CYOzaD+Jcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 09:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xm0344hkfk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/8fe40d3b-6dbd-40ee-b3d3-55905cc3f87e.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+UnfTw/NPGtaqYnnUOQl3Q0qEdtBRhoH+CYOzaD+Jcc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/9e3e2ee4-752e-4077-b796-960951d53f05.acbf9wprj6.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\9e3e2ee4-752e-4077-b796-960951d53f05.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1p9l9ByokZqqvXP5iqdZVuHyRF+wPXUtu0iPP7IBhqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 12:00:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "acbf9wprj6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/9e3e2ee4-752e-4077-b796-960951d53f05.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1p9l9ByokZqqvXP5iqdZVuHyRF+wPXUtu0iPP7IBhqo="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/9e3e2ee4-752e-4077-b796-960951d53f05.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\9e3e2ee4-752e-4077-b796-960951d53f05.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1p9l9ByokZqqvXP5iqdZVuHyRF+wPXUtu0iPP7IBhqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 12:00:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1p9l9ByokZqqvXP5iqdZVuHyRF+wPXUtu0iPP7IBhqo="
+        }
+      ]
+    },
+    {
       "Route": "images/products/a01e404b-d846-4c02-99a3-66a839f58c7f.m1zpj6nuxr.webp",
       "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\a01e404b-d846-4c02-99a3-66a839f58c7f.webp",
       "Selectors": [],
@@ -963,6 +2016,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-e2mMHPN4TPK4IBufuFacN/Sif7yQK6rL6TQpI1T3LAs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/bbc53cb0-3c21-4c63-b75c-6b3c7903ec9a.fjklqtg2aq.webp",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\bbc53cb0-3c21-4c63-b75c-6b3c7903ec9a.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xTaSfLryEBHhCpPE97r4fLBynfuZ+AJHKPibE74p0mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 09:33:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fjklqtg2aq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/bbc53cb0-3c21-4c63-b75c-6b3c7903ec9a.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xTaSfLryEBHhCpPE97r4fLBynfuZ+AJHKPibE74p0mw="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/bbc53cb0-3c21-4c63-b75c-6b3c7903ec9a.webp",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\bbc53cb0-3c21-4c63-b75c-6b3c7903ec9a.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xTaSfLryEBHhCpPE97r4fLBynfuZ+AJHKPibE74p0mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 09:33:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xTaSfLryEBHhCpPE97r4fLBynfuZ+AJHKPibE74p0mw="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/d0eeffad-ef2f-434c-a3f6-6c40a589665b.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\d0eeffad-ef2f-434c-a3f6-6c40a589665b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "383840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 13:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/d0eeffad-ef2f-434c-a3f6-6c40a589665b.k7olwxv9dc.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\d0eeffad-ef2f-434c-a3f6-6c40a589665b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "383840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 13:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7olwxv9dc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/d0eeffad-ef2f-434c-a3f6-6c40a589665b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MB59J3T3oxfMoVOICOX5BiYiti98wjhWWbYWGPspHaY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/d61eade7-782a-47f3-8e51-8d57a52b973c.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\d61eade7-782a-47f3-8e51-8d57a52b973c.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CoaiEtIWJXAOb6ne0MqCTHHnnWKmeTtDfAJSwRO+Q4A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 11:25:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CoaiEtIWJXAOb6ne0MqCTHHnnWKmeTtDfAJSwRO+Q4A="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/d61eade7-782a-47f3-8e51-8d57a52b973c.q4afx9yw2o.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\d61eade7-782a-47f3-8e51-8d57a52b973c.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CoaiEtIWJXAOb6ne0MqCTHHnnWKmeTtDfAJSwRO+Q4A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 11:25:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q4afx9yw2o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/d61eade7-782a-47f3-8e51-8d57a52b973c.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CoaiEtIWJXAOb6ne0MqCTHHnnWKmeTtDfAJSwRO+Q4A="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/eb568d3b-a9ad-4c5e-8ef3-75e3bdb0f808.1421max8pz.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\eb568d3b-a9ad-4c5e-8ef3-75e3bdb0f808.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D/HIKQEHB57Ooo5Bv/KmAHpgl4Wpq4FQQIDiV2xwat0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 15:10:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1421max8pz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/eb568d3b-a9ad-4c5e-8ef3-75e3bdb0f808.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D/HIKQEHB57Ooo5Bv/KmAHpgl4Wpq4FQQIDiV2xwat0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/eb568d3b-a9ad-4c5e-8ef3-75e3bdb0f808.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\eb568d3b-a9ad-4c5e-8ef3-75e3bdb0f808.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D/HIKQEHB57Ooo5Bv/KmAHpgl4Wpq4FQQIDiV2xwat0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 15:10:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D/HIKQEHB57Ooo5Bv/KmAHpgl4Wpq4FQQIDiV2xwat0="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/ef15a13a-edc6-4cdf-a3d5-78a720be0950.cjgcq0bkp0.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\ef15a13a-edc6-4cdf-a3d5-78a720be0950.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 10:37:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cjgcq0bkp0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/ef15a13a-edc6-4cdf-a3d5-78a720be0950.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/ef15a13a-edc6-4cdf-a3d5-78a720be0950.jfif",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\ef15a13a-edc6-4cdf-a3d5-78a720be0950.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 10:37:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uOiuVZ09pJBTa2Hzuq8C8sr4gZ5xKv2VzkyVkC36c0E="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/f930d225-e0f7-4ef0-837f-039422e8d754.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\f930d225-e0f7-4ef0-837f-039422e8d754.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dsCed5+Oc21Bxt7c8mlvoQxmQ4Fbpz0Bw30MrTX0p/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 12:01:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dsCed5+Oc21Bxt7c8mlvoQxmQ4Fbpz0Bw30MrTX0p/c="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/f930d225-e0f7-4ef0-837f-039422e8d754.mc711x2ohg.jpg",
+      "AssetFile": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\wwwroot\\images\\products\\f930d225-e0f7-4ef0-837f-039422e8d754.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dsCed5+Oc21Bxt7c8mlvoQxmQ4Fbpz0Bw30MrTX0p/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 12:01:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mc711x2ohg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/f930d225-e0f7-4ef0-837f-039422e8d754.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dsCed5+Oc21Bxt7c8mlvoQxmQ4Fbpz0Bw30MrTX0p/c="
         }
       ]
     },

@@ -23,11 +23,9 @@ namespace SelfServiceKioskSystem.Models
 
         public string ImageURL { get; set; }
 
-        public Boolean isAvailable { get; set; }
+        public Boolean isAvailable { get; set; } = true;
 
         public Category Category { get; set; }
-
-        //public User User { get; set; }
 
         public ICollection<Cart> Carts { get; set; }
     }

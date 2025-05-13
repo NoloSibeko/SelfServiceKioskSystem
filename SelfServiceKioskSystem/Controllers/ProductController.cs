@@ -17,6 +17,8 @@ namespace SelfServiceKioskSystem.Controllers
     public class ProductController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly ProductDTO _product;
+        private readonly CategoryProductsDisplayDTO _category;
 
         public ProductController(ApplicationDbContext context)
         {
@@ -33,6 +35,7 @@ namespace SelfServiceKioskSystem.Controllers
                 .Include(p => p.Category)
                 .Select(p => new ProductDTO
                 {
+                    ProductID=p.ProductID,
                     Name = p.Name,
                     ImageURL = $"{baseUrl}/images/products/{p.ImageURL}",
                     CategoryName = p.Category.CategoryName,
@@ -43,6 +46,40 @@ namespace SelfServiceKioskSystem.Controllers
 
             return Ok(products);
         }
+
+
+        [HttpGet("byCategory")]
+        public async Task<IActionResult> GetProductsByCategory([FromQuery] string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return BadRequest("Category name is required.");
+            }
+
+            var baseUrl = $"{Request.Scheme}://{Request.Host}";
+
+            var products = await _context.Products
+                .Include(p => p.Category)
+                .Where(p => p.Category.CategoryName.ToLower() == name.ToLower())
+                .ToListAsync();
+
+            var productDtos = products.Select(p => new ProductDTO
+            {
+                Name = p.Name,
+                ImageURL = $"{baseUrl}/images/products/{p.ImageURL}",
+                CategoryName = p.Category.CategoryName,
+                Price = p.Price,
+                Quantity = p.Quantity,
+            }).ToList();
+
+            if (!productDtos.Any())
+            {
+                return NotFound($"No products found under category '{name}'.");
+            }
+
+            return Ok(productDtos);
+        }
+
 
         [HttpPost]
         [Authorize(Roles = "Superuser")]
@@ -62,6 +99,7 @@ namespace SelfServiceKioskSystem.Controllers
                 Price = dto.Price,
                 CategoryID = dto.CategoryID,
                 Quantity = dto.Quantity,
+                isAvailable = true,
                 ImageURL = imageFileName
             };
 
@@ -75,9 +113,9 @@ namespace SelfServiceKioskSystem.Controllers
         [Authorize(Roles = "Superuser")]
         public async Task<IActionResult> UpdateProduct(int id, [FromForm] CreateProductDTO dto)
         {
-            var product = await _context.Products.FindAsync(id);
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductID == id);
             if (product == null)
-                return NotFound();
+                return NotFound("Product not found.");
 
             var imageFileName = await SaveImageToFileSystem(dto.Image);
             if (string.IsNullOrEmpty(imageFileName))
@@ -87,22 +125,39 @@ namespace SelfServiceKioskSystem.Controllers
             product.Description = dto.Description;
             product.Price = dto.Price;
             product.CategoryID = dto.CategoryID;
+            product.Quantity = dto.Quantity;
             product.ImageURL = imageFileName;
+            product.isAvailable = true;
 
             await _context.SaveChangesAsync();
-            return Ok(product);
+            return Ok(new { message = "Product updated successfully.", updatedProduct = product });
         }
 
-       
+        [HttpPut("mark-available/{id}")]
         [Authorize(Roles = "Superuser")]
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProduct(int id)
+        public async Task<IActionResult> PutMarkAvailable(int id, [FromBody] bool isAvailable)
         {
-            var product = await _context.Products.FindAsync(id);
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductID == id);
             if (product == null)
                 return NotFound("Product not found.");
 
-            // Optionally: Delete image from file system
+            product.isAvailable = isAvailable; // Use the passed-in value
+
+            await _context.SaveChangesAsync();
+            return Ok($"Product availability updated to {(isAvailable ? "available" : "unavailable")}.");
+        }
+
+
+
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Superuser")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductID == id);
+            if (product == null)
+                return NotFound("Product not found.");
+
             var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "products", product.ImageURL);
             if (System.IO.File.Exists(imagePath))
                 System.IO.File.Delete(imagePath);
@@ -113,7 +168,9 @@ namespace SelfServiceKioskSystem.Controllers
             return Ok(new { message = "Product deleted successfully." });
         }
 
-        //  Place the helper method at the bottom
+
+
+
         private async Task<string> SaveImageToFileSystem(IFormFile imageFile)
         {
             if (imageFile == null || imageFile.Length == 0)

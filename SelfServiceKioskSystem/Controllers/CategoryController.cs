@@ -30,49 +30,50 @@ namespace SelfServiceKioskSystem.Controllers
 
             var category = new Category
             {
-                CategoryName = dto.Name,
-               
+                CategoryName = dto.Name
             };
 
             _context.Categories.Add(category);
             await _context.SaveChangesAsync();
 
-            return Ok(category);
+            var response = new CreateCategoryDTO
+            {
+                //CategoryID = category.CategoryID,
+                Name = category.CategoryName
+            };
+
+            return Ok(response);
         }
 
+
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCategory(int id)
+        public async Task<ActionResult<CategoryProductsDisplayDTO>> GetCategoryWithProducts(int id)
         {
             var category = await _context.Categories
                 .Include(c => c.Products)
                 .FirstOrDefaultAsync(c => c.CategoryID == id);
 
-            if (category == null)
-                return NotFound("Category not found.");
+            if (category == null) return NotFound();
 
-            var response = new CategoryProductsDisplayDTO
+            var dto = new CategoryProductsDisplayDTO
             {
                 CategoryID = category.CategoryID,
                 CategoryName = category.CategoryName,
-                Products = category.Products
-                    .Where(p => p.isAvailable)
-                    .Select(p => new ProductDTO
-                    {
-                        ProductID = p.ProductID,
-                        Name = p.Name,
-                        ImageURL = p.ImageURL,
-                        CategoryName = category.CategoryName,
-                        Price = p.Price,
-                        IsAvailable = p.isAvailable,
-                        Description = p.Description,
-                        Quantity = p.Quantity
-                    })
-                    .ToList()
+                Products = category.Products.Select(p => new ProductDTO
+                {
+                    ProductID = p.ProductID,
+                    Name = p.Name,
+                    ImageURL = p.ImageURL,
+                    Price = p.Price,
+                    IsAvailable = true,
+                    Description = p.Description,
+                    Quantity = p.Quantity
+                }).ToList()
             };
 
-
-            return Ok(response);
+            return Ok(dto);
         }
+
 
 
         [HttpPut("{id}")]
@@ -84,12 +85,17 @@ namespace SelfServiceKioskSystem.Controllers
                 return NotFound();
 
             category.CategoryName = dto.Name;
-           
-
             await _context.SaveChangesAsync();
 
-            return Ok(category);
+            var response = new UpdateCategoryDTO
+            {
+                CategoryID = category.CategoryID,
+                CategoryName = category.CategoryName
+            };
+
+            return Ok(response);
         }
+
 
         [HttpDelete("{id}")]
         [Authorize(Roles = "Superuser")]
