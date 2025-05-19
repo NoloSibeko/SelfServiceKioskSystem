@@ -5,6 +5,7 @@ using SelfServiceKioskSystem.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using SelfServiceKioskSystem.Attributes;
+using Microsoft.EntityFrameworkCore;
 
 namespace SelfServiceKioskSystem.Controllers
 {
@@ -75,6 +76,28 @@ namespace SelfServiceKioskSystem.Controllers
             return Ok(user);
         }
 
-        
+        [HttpPost("ensure-wallet-cart")]
+        [Authorize(Roles = "Superuser")]
+        public async Task<IActionResult> EnsureWalletsAndCartsForUsers()
+        {
+            var users = await _context.Users
+                .Include(u => u.Wallet)
+                .Include(u => u.Cart)
+                .ToListAsync();
+
+            foreach (var user in users)
+            {
+                if (user.Wallet == null)
+                    user.Wallet = new Wallet { Balance = 0 };
+
+                if (user.Cart == null)
+                    user.Cart = new Cart();
+            }
+
+            await _context.SaveChangesAsync();
+            return Ok("All users now have wallets and carts.");
+        }
+
+
     }
 }

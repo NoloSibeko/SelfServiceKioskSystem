@@ -3,24 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\dtos\\addwalletfundsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\dtos\\addwalletfundsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\transactiondetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\transactiondetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\dtos\\walletbalancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\dtos\\walletbalancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\attributes\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\attributes\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Migrations\\20250519090531_WalletResultingBalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SelfServiceKioskSystem\\Migrations\\20250519090531_WalletResultingBalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\dtos\\transactiondetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\dtos\\transactiondetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\dtos\\categoryproductsdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\dtos\\categoryproductsdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,22 +111,6 @@
       "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\migrations\\20250429101859_initwithupdatedseeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\transactiondetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\transactiondetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Migrations\\20250423132407_ProductTableUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SelfServiceKioskSystem\\Migrations\\20250423132407_ProductTableUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,14 +127,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SelfServiceKioskSystem\\Migrations\\20250423104809_NoloSeedSU.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\attributes\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\attributes\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -113,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\attributes\\superuseronlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\attributes\\superuseronlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|solutionrelative:selfservicekiosksystem\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F36FD5E-0EE2-442C-BCCA-0EF4A9744306}|SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj|c:\\users\\bsibeko\\source\\repos\\selfservicekiosksystempt\\selfservicekiosksystem\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 413,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,15 +194,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAkwJkAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Program.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Program.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T11:54:03.959Z",
+              "WhenOpened": "2025-04-15T12:02:08.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Attributes\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Attributes\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Attributes\\JwtHelper.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Attributes\\JwtHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:37:48.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddWalletFundsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\AddWalletFundsDTO.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\AddWalletFundsDTO.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\AddWalletFundsDTO.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\DTOs\\AddWalletFundsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T08:54:02.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WalletBalanceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\WalletBalanceDTO.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\WalletBalanceDTO.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\WalletBalanceDTO.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\DTOs\\WalletBalanceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T08:54:48.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\WalletController.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\WalletController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T08:58:26.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:52:41.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\User.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:44:19.653Z",
               "EditorCaption": ""
             },
             {
@@ -193,62 +291,92 @@
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAArwEoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:42:48.902Z"
+              "WhenOpened": "2025-04-15T13:42:48.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowEcAAABAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "TransactionDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\TransactionDetailDTO.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\TransactionDetailDTO.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\TransactionDetailDTO.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\DTOs\\TransactionDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T07:41:46.294Z"
+              "WhenOpened": "2025-05-19T08:56:13.115Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Product.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Product.cs",
               "RelativeToolTip": "SelfServiceKioskSystem\\Models\\Product.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T11:47:18.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryProductsDisplayDTO.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\CategoryProductsDisplayDTO.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\CategoryProductsDisplayDTO.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\CategoryProductsDisplayDTO.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\DTOs\\CategoryProductsDisplayDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TransactionDetail.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\TransactionDetail.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\TransactionDetail.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\TransactionDetail.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Models\\TransactionDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T09:45:33.319Z"
+              "WhenOpened": "2025-04-15T11:46:17.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T11:55:06.891Z"
+              "WhenOpened": "2025-04-22T14:27:41.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T07:41:46.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250519090531_WalletResultingBalance.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Migrations\\20250519090531_WalletResultingBalance.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Migrations\\20250519090531_WalletResultingBalance.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Migrations\\20250519090531_WalletResultingBalance.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Migrations\\20250519090531_WalletResultingBalance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T09:05:32.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "CreateProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\CreateProductDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\CreateProductDTO.cs",
@@ -260,7 +388,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:55:06.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryProductsDisplayDTO.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\CategoryProductsDisplayDTO.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\CategoryProductsDisplayDTO.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\CategoryProductsDisplayDTO.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\DTOs\\CategoryProductsDisplayDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T09:45:33.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Role.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\Role.cs",
@@ -272,19 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Program.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Program.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Program.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAwIkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:02:08.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\ProductDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\ProductDTO.cs",
@@ -292,12 +432,49 @@
               "RelativeToolTip": "SelfServiceKioskSystem\\DTOs\\ProductDTO.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAUwBMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T10:01:56.618Z",
+              "WhenOpened": "2025-04-16T10:01:56.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Wallet.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\Wallet.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Wallet.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Models\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:45:37.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Cart.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:46:45.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAYwJkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:54:03.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "CreateCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\CreateCategoryDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\CreateCategoryDTO.cs",
@@ -309,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Category.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\Category.cs",
@@ -321,55 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAIwHYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:27:41.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Controllers\\UserController.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T11:52:41.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TransactionDetail.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\TransactionDetail.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\TransactionDetail.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\TransactionDetail.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Models\\TransactionDetail.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T11:46:17.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\User.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\User.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T11:44:19.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "UpdateCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\UpdateCategoryDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\UpdateCategoryDTO.cs",
@@ -381,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "RoleDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\RoleDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\RoleDTO.cs",
@@ -393,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "20250429101859_InitWithUpdatedSeeds.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Migrations\\20250429101859_InitWithUpdatedSeeds.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Migrations\\20250429101859_InitWithUpdatedSeeds.cs",
@@ -405,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "20250429102828_SeedUpdates.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Migrations\\20250429102828_SeedUpdates.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Migrations\\20250429102828_SeedUpdates.cs",
@@ -417,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "20250423132407_ProductTableUpdate.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Migrations\\20250423132407_ProductTableUpdate.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Migrations\\20250423132407_ProductTableUpdate.cs",
@@ -429,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "RegisterUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\RegisterUserDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\RegisterUserDTO.cs",
@@ -441,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "LoginUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\LoginUserDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\LoginUserDTO.cs",
@@ -453,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "20250423104809_NoloSeedSU.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Migrations\\20250423104809_NoloSeedSU.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Migrations\\20250423104809_NoloSeedSU.cs",
@@ -465,19 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Wallet.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Wallet.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\Wallet.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Wallet.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Models\\Wallet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T11:45:37.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\appsettings.json",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\appsettings.json",
@@ -489,19 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Attributes\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Attributes\\JwtHelper.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Attributes\\JwtHelper.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Attributes\\JwtHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:37:48.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "CreateRoleDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\CreateRoleDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\CreateRoleDTO.cs",
@@ -513,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "SuperuserOnlyAttribute.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Attributes\\SuperuserOnlyAttribute.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Attributes\\SuperuserOnlyAttribute.cs",
@@ -525,19 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "SelfServiceKioskSystem\\Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\Models\\Cart.cs",
-              "RelativeToolTip": "SelfServiceKioskSystem\\Models\\Cart.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T11:46:45.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "UpdateUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\DTOs\\UpdateUserDTO.cs",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\DTOs\\UpdateUserDTO.cs",
@@ -549,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "SelfServiceKioskSystem.csproj",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\SelfServiceKioskSystem.csproj",
@@ -561,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "SelfServiceKioskSystem.http",
               "DocumentMoniker": "C:\\Users\\BSibeko\\source\\repos\\SelfServiceKioskSystemPT\\SelfServiceKioskSystem\\SelfServiceKioskSystem.http",
               "RelativeDocumentMoniker": "SelfServiceKioskSystem\\SelfServiceKioskSystem.http",

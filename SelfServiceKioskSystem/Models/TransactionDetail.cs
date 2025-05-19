@@ -23,6 +23,8 @@ namespace SelfServiceKioskSystem.Models
 
         public string Description { get; set; }
 
+        public decimal ResultingBalance { get; set; }
+
         public User User { get; set; }
 
         public Wallet Wallet { get; set; }

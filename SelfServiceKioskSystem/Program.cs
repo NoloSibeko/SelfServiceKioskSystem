@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using SelfServiceKioskSystem.Data;
 using SelfServiceKioskSystem.Models;
+using Microsoft.AspNetCore.Authorization;
+using SelfServiceKioskSystem.Helpers;
+
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

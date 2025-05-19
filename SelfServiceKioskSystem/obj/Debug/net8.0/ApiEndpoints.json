@@ -410,5 +410,47 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.UsersController",
+    "Method": "EnsureWalletsAndCartsForUsers",
+    "RelativePath": "api/Users/ensure-wallet-cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.WalletController",
+    "Method": "AddFunds",
+    "RelativePath": "api/Wallet/add-funds",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SelfServiceKioskSystem.DTOs.AddWalletFundsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.WalletController",
+    "Method": "GetBalance",
+    "RelativePath": "api/Wallet/balance/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

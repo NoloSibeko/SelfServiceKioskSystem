@@ -18,7 +18,7 @@ namespace SelfServiceKioskSystem.Models
         public Role Role { get; set; }
 
         public Wallet Wallet { get; set; }
-        public Cart Carts { get; set; }
+        public Cart Cart { get; set; }
         public List<TransactionDetail> Transaction { get; set; }
     }
 

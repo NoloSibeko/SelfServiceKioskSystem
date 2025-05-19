@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SelfServiceKioskSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae7f476c2ee4b909f938b5ba6d14cd1ef56743c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75f8a4859e52f9b72d4be16804fca80777387c60")]
 [assembly: System.Reflection.AssemblyProductAttribute("SelfServiceKioskSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SelfServiceKioskSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
