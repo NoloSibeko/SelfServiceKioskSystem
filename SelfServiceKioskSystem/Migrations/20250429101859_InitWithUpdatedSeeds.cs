@@ -232,7 +232,7 @@ namespace SelfServiceKioskSystem.Migrations
                 name: "IX_TransactionDetails_CartID",
                 table: "TransactionDetails",
                 column: "CartID",
-                unique: true);
+                unique: false);
 
             migrationBuilder.CreateIndex(
                 name: "IX_TransactionDetails_UserID",

@@ -22,31 +22,27 @@ namespace SelfServiceKioskSystem.Controllers
         }
 
         // POST: api/Wallet/add-funds
-        [HttpPost("add-funds")]
+        // POST: api/Wallet/{userId}/AddFunds
+        [HttpPost("{userId}/AddFunds")]
         public async Task<IActionResult> AddFunds([FromBody] AddWalletFundsDTO dto)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+            var user = await _context.Users.Include(u => u.Wallet)
+                                           .FirstOrDefaultAsync(u => u.UserID == dto.UserId);
+            if (user == null)
+                return BadRequest("User not found.");
 
-            var user = await _context.Users
-                .Include(u => u.Wallet)
-                .FirstOrDefaultAsync(u => u.UserID == dto.UserId);
+            var cart = await _context.Carts.FirstOrDefaultAsync(c => c.UserID == user.UserID);
+            if (cart == null)
+                return BadRequest("Cart does not exist for this user.");
 
-            if (user == null || user.Wallet == null)
-                return NotFound("User or wallet not found.");
-
-            if (dto.Amount <= 0)
-                return BadRequest("Amount must be a positive number.");
-
-            // Update wallet balance
+            // ADD the amount to the current balance
             user.Wallet.Balance += dto.Amount;
 
-            // Log transaction
             var transaction = new TransactionDetail
             {
                 UserID = user.UserID,
                 WalletID = user.Wallet.WalletID,
-                CartID = 0, // No cart involved in top-up
+                CartID = cart.CartID,
                 TransactionDate = DateTime.UtcNow,
                 Amount = dto.Amount,
                 Description = "Wallet Top-Up",
@@ -59,25 +55,31 @@ namespace SelfServiceKioskSystem.Controllers
             return Ok(new
             {
                 message = "Funds added successfully.",
-                newBalance = user.Wallet.Balance
+                userId = user.UserID,
+                walletId = user.Wallet.WalletID,
+                newBalance = user.Wallet.Balance,
+                transactionId = transaction.TransactionID,
+                timestamp = transaction.TransactionDate
             });
         }
 
-
-        // GET: api/Wallet/balance/{userId}
-        [HttpGet("balance/{userId}")]
-        [Authorize]
+        // GET: api/Wallet/balance/5
+        [HttpGet("{userId}/Balance")]
         public async Task<IActionResult> GetBalance(int userId)
         {
-            var wallet = await _context.Users
-                .Where(u => u.UserID == userId)
-                .Select(u => u.Wallet)
+            var wallet = await _context.Wallets
+                .Where(w => w.UserID == userId)
                 .FirstOrDefaultAsync();
 
             if (wallet == null)
                 return NotFound("Wallet not found.");
 
-            return Ok(new { balance = wallet.Balance });
+            return Ok(new
+            {
+                userId = wallet.UserID,
+                walletId = wallet.WalletID,
+                balance = wallet.Balance
+            });
         }
     }
 }

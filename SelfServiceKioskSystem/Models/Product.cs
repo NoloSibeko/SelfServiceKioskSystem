@@ -26,6 +26,7 @@ namespace SelfServiceKioskSystem.Models
         public Boolean isAvailable { get; set; } = true;
 
         public Category Category { get; set; }
+        public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 
         public ICollection<Cart> Carts { get; set; }
     }

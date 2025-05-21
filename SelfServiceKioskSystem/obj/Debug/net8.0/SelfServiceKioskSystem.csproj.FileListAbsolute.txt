@@ -354,10 +354,10 @@ C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\ob
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SelfServiceKioskSystem.props
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SelfServiceKioskSystem.props
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\SelfServ.E088B12E.Up2Date
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\SelfServiceKioskSystem.dll
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\refint\SelfServiceKioskSystem.dll
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\SelfServiceKioskSystem.pdb
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\SelfServiceKioskSystem.genruntimeconfig.cache
 C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\ref\SelfServiceKioskSystem.dll
-C:\Users\BSibeko\source\repos\SelfServiceKioskSystemPT\SelfServiceKioskSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

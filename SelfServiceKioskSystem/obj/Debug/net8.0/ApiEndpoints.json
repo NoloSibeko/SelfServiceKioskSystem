@@ -32,6 +32,101 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.CartController",
+    "Method": "GetCart",
+    "RelativePath": "api/Cart/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SelfServiceKioskSystem.DTOs.CartDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.CartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addToCartDto",
+        "Type": "SelfServiceKioskSystem.DTOs.AddToCartDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.CartController",
+    "Method": "Checkout",
+    "RelativePath": "api/Cart/checkout/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.CartController",
+    "Method": "RemoveFromCart",
+    "RelativePath": "api/Cart/remove/{itemId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SelfServiceKioskSystem.Controllers.CartController",
+    "Method": "UpdateCartItem",
+    "RelativePath": "api/Cart/update/{itemId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "SelfServiceKioskSystem.DTOs.UpdateCartItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SelfServiceKioskSystem.Controllers.CategoryController",
     "Method": "CreateCategory",
     "RelativePath": "api/Category",
@@ -424,7 +519,7 @@
   {
     "ContainingType": "SelfServiceKioskSystem.Controllers.WalletController",
     "Method": "AddFunds",
-    "RelativePath": "api/Wallet/add-funds",
+    "RelativePath": "api/Wallet/{userId}/AddFunds",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -433,6 +528,11 @@
         "Name": "dto",
         "Type": "SelfServiceKioskSystem.DTOs.AddWalletFundsDTO",
         "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -440,7 +540,7 @@
   {
     "ContainingType": "SelfServiceKioskSystem.Controllers.WalletController",
     "Method": "GetBalance",
-    "RelativePath": "api/Wallet/balance/{userId}",
+    "RelativePath": "api/Wallet/{userId}/Balance",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -13,6 +13,8 @@ namespace SelfServiceKioskSystem.Data
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+
         public DbSet<TransactionDetail> TransactionDetails { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -55,15 +57,24 @@ namespace SelfServiceKioskSystem.Data
                 .HasForeignKey(p => p.CategoryID);
 
             // Many-to-many relationship between Cart and Product
-            modelBuilder.Entity<Cart>()
-                .HasMany(c => c.Products)
-                .WithMany(p => p.Carts)
-                .UsingEntity(j => j.ToTable("CartProducts"));
+            modelBuilder.Entity<CartItem>()
+                .HasOne(ci => ci.Cart)
+                .WithMany(c => c.CartItems)
+                .HasForeignKey(ci => ci.CartID)
+                .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Cart>()
-                .HasOne(c => c.Transaction)
-                .WithOne(t => t.Cart)
-                .HasForeignKey<TransactionDetail>(t => t.CartID);
+            modelBuilder.Entity<TransactionDetail>()
+                .HasOne(td => td.Cart)
+                .WithOne(c => c.Transaction)
+                .HasForeignKey<TransactionDetail>(td => td.CartID)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<CartItem>()
+                .HasOne(ci => ci.Product)
+                .WithMany(p => p.CartItems)
+                .HasForeignKey(ci => ci.ProductID)
+                .OnDelete(DeleteBehavior.Restrict);
+
 
             // Decimal Precision Configuration
             modelBuilder.Entity<Product>()
@@ -99,19 +110,7 @@ namespace SelfServiceKioskSystem.Data
 
             // Add appropriate cascade delete settings for TransactionDetail, Cart, etc.
 
-            // Prevent cascading delete between Cart and TransactionDetails if needed
-            modelBuilder.Entity<TransactionDetail>()
-                .HasOne(td => td.Cart)
-                .WithOne(c => c.Transaction)
-                .HasForeignKey<TransactionDetail>(td => td.CartID)
-                .OnDelete(DeleteBehavior.Restrict);  // Restrict cascading delete
-
-            // If you want to restrict cascading delete for Cart itself, do so here:
-            modelBuilder.Entity<Cart>()
-                .HasOne(c => c.Transaction)
-                .WithOne(t => t.Cart)
-                .HasForeignKey<TransactionDetail>(t => t.CartID)
-                .OnDelete(DeleteBehavior.Restrict); // Restrict cascading delete
+            
         }
     }
 }

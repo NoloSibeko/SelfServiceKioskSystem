@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SelfServiceKioskSystem.Data;
 
@@ -11,9 +12,11 @@ using SelfServiceKioskSystem.Data;
 namespace SelfServiceKioskSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250521090624_TransactionsDuplicateFix")]
+    partial class TransactionsDuplicateFix
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,6 +24,21 @@ namespace SelfServiceKioskSystem.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("CartProduct", b =>
+                {
+                    b.Property<int>("CartsCartID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductsProductID")
+                        .HasColumnType("int");
+
+                    b.HasKey("CartsCartID", "ProductsProductID");
+
+                    b.HasIndex("ProductsProductID");
+
+                    b.ToTable("CartProducts", (string)null);
+                });
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Cart", b =>
                 {
@@ -30,7 +48,7 @@ namespace SelfServiceKioskSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartID"));
 
-                    b.Property<int?>("ProductID")
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<decimal>("TotalAmount")
@@ -40,40 +58,15 @@ namespace SelfServiceKioskSystem.Migrations
                     b.Property<int>("UserID")
                         .HasColumnType("int");
 
-                    b.HasKey("CartID");
+                    b.Property<int>("WalletID")
+                        .HasColumnType("int");
 
-                    b.HasIndex("ProductID");
+                    b.HasKey("CartID");
 
                     b.HasIndex("UserID")
                         .IsUnique();
 
                     b.ToTable("Carts");
-                });
-
-            modelBuilder.Entity("SelfServiceKioskSystem.Models.CartItem", b =>
-                {
-                    b.Property<int>("CartItemID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartItemID"));
-
-                    b.Property<int>("CartID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.HasKey("CartItemID");
-
-                    b.HasIndex("CartID");
-
-                    b.HasIndex("ProductID");
-
-                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Category", b =>
@@ -297,12 +290,23 @@ namespace SelfServiceKioskSystem.Migrations
                     b.ToTable("Wallets");
                 });
 
+            modelBuilder.Entity("CartProduct", b =>
+                {
+                    b.HasOne("SelfServiceKioskSystem.Models.Cart", null)
+                        .WithMany()
+                        .HasForeignKey("CartsCartID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SelfServiceKioskSystem.Models.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Cart", b =>
                 {
-                    b.HasOne("SelfServiceKioskSystem.Models.Product", null)
-                        .WithMany("Carts")
-                        .HasForeignKey("ProductID");
-
                     b.HasOne("SelfServiceKioskSystem.Models.User", "User")
                         .WithOne("Cart")
                         .HasForeignKey("SelfServiceKioskSystem.Models.Cart", "UserID")
@@ -310,25 +314,6 @@ namespace SelfServiceKioskSystem.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("SelfServiceKioskSystem.Models.CartItem", b =>
-                {
-                    b.HasOne("SelfServiceKioskSystem.Models.Cart", "Cart")
-                        .WithMany("CartItems")
-                        .HasForeignKey("CartID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SelfServiceKioskSystem.Models.Product", "Product")
-                        .WithMany("CartItems")
-                        .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Cart");
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Product", b =>
@@ -393,8 +378,6 @@ namespace SelfServiceKioskSystem.Migrations
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Cart", b =>
                 {
-                    b.Navigation("CartItems");
-
                     b.Navigation("Transaction")
                         .IsRequired();
                 });
@@ -402,13 +385,6 @@ namespace SelfServiceKioskSystem.Migrations
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Category", b =>
                 {
                     b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("SelfServiceKioskSystem.Models.Product", b =>
-                {
-                    b.Navigation("CartItems");
-
-                    b.Navigation("Carts");
                 });
 
             modelBuilder.Entity("SelfServiceKioskSystem.Models.Role", b =>

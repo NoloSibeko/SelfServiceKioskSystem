@@ -26,7 +26,9 @@ namespace SelfServiceKioskSystem.Helpers
             {
                 new Claim(ClaimTypes.NameIdentifier, user.UserID.ToString()),
                 new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.Role, user.Role.UserRole)
+                new Claim(ClaimTypes.Role, user.Role.UserRole),
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim("UserID", user.UserID.ToString()),
             };
 
             var token = new JwtSecurityToken(
