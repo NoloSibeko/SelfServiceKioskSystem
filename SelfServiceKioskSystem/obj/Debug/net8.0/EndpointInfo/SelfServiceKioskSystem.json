@@ -528,34 +528,19 @@
           "content": {
             "multipart/form-data": {
               "schema": {
-                "required": [
-                  "CategoryID",
-                  "Description",
-                  "Name"
-                ],
                 "type": "object",
                 "properties": {
                   "Name": {
-                    "maxLength": 50,
-                    "minLength": 0,
                     "type": "string"
                   },
                   "Description": {
-                    "maxLength": 100,
-                    "minLength": 0,
                     "type": "string"
                   },
                   "Price": {
-                    "minimum": 0,01,
                     "type": "number",
                     "format": "double"
                   },
-                  "IsAvailable": {
-                    "type": "boolean"
-                  },
                   "Quantity": {
-                    "maximum": 2147483647,
-                    "minimum": 0,
                     "type": "integer",
                     "format": "int32"
                   },
@@ -577,9 +562,6 @@
                   "style": "form"
                 },
                 "Price": {
-                  "style": "form"
-                },
-                "IsAvailable": {
                   "style": "form"
                 },
                 "Quantity": {

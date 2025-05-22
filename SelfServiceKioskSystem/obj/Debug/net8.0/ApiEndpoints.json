@@ -310,11 +310,6 @@
         "IsRequired": false
       },
       {
-        "Name": "IsAvailable",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
         "Name": "Quantity",
         "Type": "System.Int32",
         "IsRequired": false

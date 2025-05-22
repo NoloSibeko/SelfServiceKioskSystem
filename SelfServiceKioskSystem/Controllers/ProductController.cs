@@ -111,27 +111,32 @@ namespace SelfServiceKioskSystem.Controllers
 
         [HttpPut("{id}")]
         [Authorize(Roles = "Superuser")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromForm] CreateProductDTO dto)
+        public async Task<IActionResult> UpdateProduct(int id, [FromForm] UpdateProductDTO dto)
         {
             var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductID == id);
             if (product == null)
                 return NotFound("Product not found.");
 
-            var imageFileName = await SaveImageToFileSystem(dto.Image);
-            if (string.IsNullOrEmpty(imageFileName))
-                return BadRequest("Image upload failed.");
+            // Update image only if provided
+            if (dto.Image != null)
+            {
+                var imageFileName = await SaveImageToFileSystem(dto.Image);
+                if (string.IsNullOrEmpty(imageFileName))
+                    return BadRequest("Image upload failed.");
+
+                product.ImageURL = imageFileName;
+            }
 
             product.Name = dto.Name;
             product.Description = dto.Description;
             product.Price = dto.Price;
             product.CategoryID = dto.CategoryID;
             product.Quantity = dto.Quantity;
-            product.ImageURL = imageFileName;
-            product.isAvailable = true;
 
             await _context.SaveChangesAsync();
             return Ok(new { message = "Product updated successfully.", updatedProduct = product });
         }
+
 
         [HttpPut("mark-available/{id}")]
         [Authorize(Roles = "Superuser")]
